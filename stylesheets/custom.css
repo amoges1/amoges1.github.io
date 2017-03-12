@@ -2,10 +2,13 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-size: 20px;
+
 }
 
 .about, .skills {
   background-color: #C63D0F;
+
 }
 
 .experience, #contact, #credit {
