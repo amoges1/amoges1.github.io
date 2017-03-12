@@ -1,0 +1,74 @@
+/*GENERAL & COLOR CODING SCHEME*/
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.about, .skills {
+  background-color: #C63D0F;
+}
+
+.experience, #contact, #credit {
+  background-color: #FDF3E7;
+}
+
+/*HOME FRONT*/
+.bkgd-image {
+  background-image: url('../images/japFuji.jpg');
+  background-position:center;
+  background-size: cover;
+  height: 100%;
+}
+
+/*FONT STYLE/SPACING FOR SECTION HEADERS*/
+.headliner {
+ font-family: monospace;
+ text-decoration: underline;
+ margin-top: 20px;
+ padding-top: 30px;
+ margin-bottom: 50px;
+ text-align: center;
+}
+
+#about, #experience, #skills, #contact {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/*SKILLS*/
+.mb-1 {
+  text-decoration: underline
+}
+
+/*GMAP LOCATIONS*/
+#map-canvas {
+  margin: auto;
+  height: 500px;
+  width:100%;
+}
+
+.studyAbroad {
+  width: inherit;
+}
+
+.coursework {
+  margin: 10px;
+  padding: 0px;
+  border: 1px;
+}
+
+/*EXPERIENCE*/
+.eximages {
+  width: : 100%;
+}
+
+/*CONTACT*/
+.contact {
+  padding: 20px;
+}
+
+/*FOOTER*/
+#credit {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
