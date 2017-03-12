@@ -2,7 +2,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-size: 16px;
+  font-size: 14px;
 
 }
 
@@ -62,7 +62,8 @@ html, body {
 
 /*EXPERIENCE*/
 .eximages {
-  width: : 100%;
+  padding-top: 10px;
+  width: : 300px;
 }
 
 /*CONTACT*/
@@ -72,6 +73,6 @@ html, body {
 
 /*FOOTER*/
 #credit {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
