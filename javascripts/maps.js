@@ -1,4 +1,4 @@
-function initialize() {
+function initMap() {
   var mapOptions = {
     center: new google.maps.LatLng(0,0),
     zoom: 1,
@@ -6,7 +6,7 @@ function initialize() {
     scrollwheel:false
 
   };
-  var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
   var new_york = {lat: 40.729587, lng: -73.996594};
   var abu_dhabi = {lat: 24.523741, lng: 54.434584};
@@ -165,4 +165,4 @@ function initialize() {
 
 }
 
-google.maps.event.addDomListener(window, 'load', initialize);
+// google.maps.event.addDomListener(window, 'load', initialize);
