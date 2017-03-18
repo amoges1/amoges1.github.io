@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Anteneh Moges</title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+
     <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" >
     <link rel="stylesheet" href="stylesheets/bootstrap.css">
     <link rel="stylesheet" href="stylesheets/custom.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar">
     <!--- NAVIGATION ---------------->
-        <header class="bkgd-image">
+        <header class="bkgd-image" id="home">
           <div class="container">
             <nav class="navbar navbar-inverse navbar-fixed-top ">
               <div class="container-fluid">
@@ -22,7 +24,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#">Anteneh M. </a>
+                  <a class="navbar-brand" href="#home">Anteneh M. </a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right ">
@@ -52,6 +54,11 @@
       <br />
       <div id="map"> </div>
       <caption style="color:white;">Click on the markers on the map for more information.</caption>
+      <div class="ui three buttons">
+  <button class="ui active button">One</button>
+  <button class="ui button">Two</button>
+  <button class="ui button">Three</button>
+</div>
 
     </div>
 
@@ -264,7 +271,10 @@
     <script async defer
    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMpdKefuHzobywpyKata8R8_fNg5H-LnE&callback=initMap">
    </script>
-    <script type="text/javascript" src="javascripts/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <!-- <script type="text/javascript" src="javascripts/jquery-3.1.1.min.js"></script> -->
     <script type="text/javascript" src="javascripts/bootstrap.js"></script>
     <script type="text/javascript" src="javascripts/custom.js"></script>
   </body>
