@@ -5,271 +5,328 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Anteneh Moges</title>
-    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-
-    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" >
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="stylesheets/agency.css">
+    <link rel="stylesheet" href="stylesheets/jquery-ui.min.css">
+    <link rel="stylesheet" href="stylesheets/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="stylesheets/jquery-ui.structure.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright:700|Lobster|Poppins|Righteous" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/custom.css">
   </head>
-  <body data-spy="scroll" data-target="#navbar">
-    <!--- NAVIGATION ---------------->
-        <header class="bkgd-image" id="home">
-          <div class="container">
-            <nav class="navbar navbar-inverse navbar-fixed-top ">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#home">Anteneh M. </a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                  <ul class="nav navbar-nav navbar-right ">
-                    <li class="active page-scroll"><a href="#about">About</a></li>
-                    <li><a href="#experience" >Experience</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </header>
+  <body data-spy="scroll" data-target="#navscroll">
+    <nav class="navbar navbar-fixed-top transparent" id="nav">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button id="mobile" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#navscroll" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">AMOGES </a>
+        </div>
+        <div id="navscroll" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li ><a href="#about">About</a></li>
+            <li><a href="#experience" >Experience</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-  <!-- NAVIGATION END / ABOUT SECTION ----------------->
+    <div class="hero-image" id="home">
+      <div class="hero-text">
+        <h1 class="hero-title">ANTENEH MOGES</h1>
 
-    <div class="about container-fluid" id="about">
-      <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-      <!-- include GKEY sometime... -->
-      <h2 class="headliner"> ABOUT </h2>
-      <p> I am a graduate of the Courant Institute of Mathematical Science of New York University,
-        receiving a Bachelor of Arts degree in Computer Science and a minor in Business Studies.
-        Throughout my academic career, I participated in rigourous and advanced courses in computer science,
-        mathematics, and business while studying here in <b>New York</b> and abroad at NYU's global campuses in <b>Abu Dhabi</b>, United Arab
-        Emirates and <b>Shanghai</b>, China.
-      </p>
-      <br />
-      <div id="map"> </div>
-      <caption style="color:white;">Click on the markers on the map for more information.</caption>
+        <a href="#about" class="btn btn-default">START</a>
+      </div>
     </div>
 
-    <div class="experience container-fluid" id="experience" >
-      <h2 class="headliner"> EXPERIENCE </h2>
-      <div class="row">
-        <div class="col-xs-12 col-md-12 col-lg-12">
-          <div class="thumbnail">
+    <section id="about">
+      <h1 class="title">ABOUT</h1>
+      <div class="container">
 
-            <img src="images/pachy.png" class="img-responsive eximages"  alt="Pachyderm">
-            <div class="caption">
-              <h3 class="page-header" style="text-align:center; margin-top:5px;">Current Work: Pachyderm Consulting, LLC </h3>
+        <div class="row">
+          <br>
+          <div class="col-md-4 col-lg-4 about" data-aos="fade-right">
+            <img src="images/Work-100.png" title="Work" width="100">
+            <h2 class="about_title">Hardworker</h2>
+            <p class="explain">
+              I like to work. I am an organized and goal-oriented individual who enjoys being productive. I adapt, improvise and overcome difficult
+              situations by prioritizing tasks and managing time efficiently.
 
-              <em>New York, September 2016 - Present</em>
-              <p>As a Junior Technician at Pachyderm, I gain a wider perspective of how
-                IT plays within a company. Besides setting up computer workstations and
-                troubleshooting network systems, I also administer and manage local-cloud
-                applications, such as Office 365 for clients, whether it is purchasing and evaluating
-                subscription plans or handling users’ accounts and enforcing group policy updates.
-                Given this new responsibility, I quickly learned and grasped the concepts behind
-                 these technologies and their harmonious relationships to operate in a coherent
-                 structure for a company. </p>
-            </div>
+              <!-- Most of my professional experiences are related in Information Technology,
+              working under various positions, from Desktop Support Assistant to Junior Technician. Also, I teach myself web development,
+              learning the full stack, involving HTML / CSS / JS for front-end and MongoDB / Node.js for back-end. In fact, if you are reading
+              this, you are looking at my first project - this site! -->
+            </p>
           </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3" >
-          <div class="thumbnail">
-            <img src="images/bobst.jpg" class="img-responsive eximages" width="300" alt="Bobst">
-            <div class="caption">
-              <h3 class="lead">New York University Elmer Bobst Library</h3>
-              <em>New York, May 2013 - May 2016</em>
-              <p>As a Desktop Support Assistant at Bobst Library Client Services,
-                I assisted front desk patrons and technicians with loaner equipment
-                and troubleshooting issues, fielded and addressed incoming help
-                requests from end-users via telephone, email or in person with
-                NYU Service Link Ticketing System, provided assistance for all
-                computer workstations, basic applications such as Microsoft Office
-                and networking problems while maintaining and testing computers,
-                scanners, and printers within the library and other facilities efficiently.
-                If anything, I enjoy working with computers and other types of hardware
-                with patience and effort while at the same time, knowing how to communicate
-                with patrons, as they seek for help and assistance.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-          <div class="thumbnail">
-            <img src="images/prada.jpg" class="img-responsive eximages" width="300" alt="Prada">
-            <div class="caption">
-              <h3 class="lead">PRADA Group USA Corporation</h3>
-              <em>New York, NY June 2015—Aug. 2015</em>
-              <p>Working as an IT Intern at PRADA Group USA Corporation, some of my
-                responsibilities included imaging PCs for store and corporate users and
-                setup video conference rooms for presentations, troubleshooting issues
-                and performing warranty replacement while inventorying technical equipment.
-                Also, I continued to refine my IT skills through imaging and customizing PCs
-                 with enterprise software while examining any other technical problems. As
-                 their first IT intern, I took initiative in creating an IT Intern Guide for
-                 future interns to follow, edit, and improve on - believing it will assist in
-                 smoothing their transitions into PRADA and bringing them up to speed with the
-                 company faster.</p>
-            </div>
-          </div>
-        </div>
-        <div class="clearfix visible-md visible-sm"></div>
 
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-          <div class="thumbnail">
-            <img src="images/nyuad2.jpg" class="img-responsive eximages" width="300" alt="NYUAD">
-            <div class="caption">
-              <h3 class="lead">New York University Abu Dhabi</h3>
-              <em>Abu Dhabi, UAE Oct. 2014—Dec. 2014</em>
-              <p>While studying abroad in NYU Abu Dhabi, I worked as a Quality Assurance
-                Data Analyst Intern. For a few months, I performed accurate tests on varied
-                set of technical equipment such as internet ports and routers, diagrammed
-                network infrastructure of the campus from collected data - utilizing Google
-                Drive - and collaborated with other interns in creating and executing test
-                cases for an NYU-centric application from New York that would be modified
-                for the Abu Dhabi campus. Here, I learned the importance of progressing and
-                testing ideas and applications every step of the way, realizing the signficance
-                of stability and ensuring optimal reliability in applications.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-          <div class="thumbnail">
-            <img src="images/asme.jpg" class="img-responsive eximages" width="300" alt="ASME">
-            <div class="caption">
-              <h3 class="lead">American Society of Mechanical Engineers</h3>
-              <em>New York, NY June 2014—Aug. 2014</em>
-              <p>As my first internship, I worked as an IT Intern at the American
-                Society of Mechanical Engineers. I provided help-desk and technical
-                support for all employees via telephone, email and in person, created
-                and documented an informative and comprehensive instructional guide
-                for all the employees regarding the introduction of new printers and
-                an improved newtork printer system as well as programming over 50+
-                mobile devices utilizing AirWatch for company's phones’ transitions.
-                From this experience, I understood the need for clarification in the
-                management and use of newly released products among the company’s workers.</p>
-            </div>
+        <div class="col-md-4 col-lg-4 about" data-aos="fade-down">
+          <img src="images/University-100.png" title="Education" width="100">
+          <h2 class="about_title">Learner</h2>
+          <p class="explain">
+            I like to learn. I graduated from the Courant Institute of Mathematical Sciences at New York University with a <b>Bachelor of Arts</b> in
+            <b>Computer Science</b> and a minor in <b>Business Studies</b>.
+             <!-- The journey of deciding to major in Computer Science took me on an unique
+            thought process. Instead of choosing my <q>passion</q>, which didn't come easily, I flippped the situation and searched for something I
+            disliked the least - after all, what you enjoy the most is what you dislike the least.  -->
+            I realized it was also a useful tool that I can apply to anything.
+          </p>
+         </div>
+
+         <div class="col-md-4 col-lg-4 about" data-aos="fade-left">
+          <img src="images/World Map-100.png" title="Travel" width="100">
+          <h2 class="about_title">Traveller</h2>
+          <p class="explain">I like to travel.
+            <!-- Born in New York and raised by Ethiopian parents, I enjoy sharing my culture in a diverse city that I call home. -->
+            Inspired and attracted by the melting pot of cultures and language in New York, I took advantage of New York University's study abroad programs.
+            I spent a semester at their <b>Abu Dhabi</b> and <b>Shanghai</b> campuses.
+
+            <!-- As they say <q>Location is everything</q> and so, while abroad
+            in Abu Dhabi, I travelled to <b>Dubai, Jordan, Oman, and Bahrain</b>, and in Shanghai - <b>Beijing, Hong Kong, Korea, Japan, and Singapore</b>. -->
+          </p>
           </div>
         </div>
       </div>
+      <br>
+     </section>
 
-    </div>
 
-    <div class="container-fluid skills" id="skills">
-      <h2 class="headliner"> SKILLS &amp; PROJECTS </h2>
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <div class="thumbnail">
-            <img src="images/dumplings.jpg" class="eximages" width="400" alt="ASME">
-            <div class="caption">
-              <h2 class="page-header" style="text-align:center; margin-top:15px;">
-                <a href="http://bit.ly/2l1ex0X" target="_blank">Taste Bytes</a>
-              </h2>
-              <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  <div class="list-group">
-                    <div class="col-sm-6 col-md-6">
-                      <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Create a List, Powered by Yelp</h5>
-                      </div>
-                      <p >Create your own list of restaurants, cafes and more
-                        to try after searching for places with the help of Yelp.</p>
-                      <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Share Lists with Friends</h5>
-                      </div>
-                      <p >After building your list, share it with your friends.
-                        See what places you may have common and head there together.</p>
-                    </div>
-                    <div class="col-sm-6 col-md-6">
-                      <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Recommend each other locations</h5>
-                      </div>
-                      <p >You and your friends may have different tastes in locations
-                        to visit so feel free to recommend some places from your own list.</p>
-                      <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Rate and Comment each other location selections</h5>
-                      </div>
-                      <p >Review your friends' lists and comment on their picks -
-                        your opinion may finally push them to check out a place so let them know.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xs-12 text-center">
-                  <h5 class="mb-1 ">Technology and Languages Used:</h5>
-                  <div class="d-flex w-100 justify-content-between">
-                    <ul class="list-inline">
-                      <li class="list-group-item">HTML5</li>
-                      <li class="list-group-item">CSS3 </li>
-                      <li class="list-group-item">JavaScript</li>
-                      <li class="list-group-item">Node.js</li>
-                      <li class="list-group-item">Express</li>
-                      <li class="list-group-item">MongoDB</li>
-                      <li class="list-group-item">mLab</li>
-                      <li class="list-group-item">Heroku</li>
-                    </ul>
+    <section id="experience">
+        <h1 class="title">EXPERIENCE</h1>
+        <div class="container-fluid exp_content">
+          <div class="row">
+            <div class="col-lg-12" data-aos="fade-up">
+              <div class="container">
+                <div class="thumbnail" style="margin-left: 100px;margin-right: 100px; padding-top:40px;">
+
+                  <img src="images/pachy.png" class="img-responsive img-rounded"  alt="Pachyderm" style="width:50%; ">
+                  <div class="caption">
+                    <h3 class=" job_title" style="margin-top:5px; font-size:20px;"> Junior Technician </h3>
+
+                    <p class="main_job"><b>New York, September 2016 - Present</b>: While working at Pachyderm, I gain a wider perspective of how IT plays within a company.
+                      Besides setting up computer workstations and troubleshooting network systems, I also administer and manage local-cloud
+                      applications, such as Office 365 for clients, whether it is purchasing and evaluating subscription plans or handling
+                      users’ accounts and enforcing group policy updates. Given this new responsibility, I quickly learned and grasped the
+                      concepts behind these technologies and their harmonious relationships to operate in a coherent structure for a company. </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="container">
+                <ul class="timeline">
+                  <li class="timeline-inverted" data-aos="fade-up">
+                    <div class="timeline-image">
+                        <img class="img-circle img-responsive" src="images/bobst1.jpg" alt="Bobst">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="accordion">
+                        <div class="timeline-heading">
+                            <h4>New York University Elmer Bobst Library</h4>
+                            <h4 class="subheading">New York, May 2013 - May 2016</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <h2 class="job_title">Desktop Support Assistant</h2>
+                            <p class="text-muted">
+                              Assist front desk patrons and technicians with loaner equipment and troubleshooting issues
+                              •	Field and address incoming help requests from end-users via both telephone, email or in person
+                              •	Provide assistance for all computer workstations, basic applications and networking problems
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li data-aos="fade-up">
+                    <div class="timeline-image">
+                        <img class="img-circle img-responsive" src="images/prada1.jpg" alt="Prada">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="accordion">
+                        <div class="timeline-heading">
+                            <h4>PRADA Group USA Corporation</h4>
+                            <h4 class="subheading">New York, NY June 2015—Aug. 2015</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <h2 class="job_title">Information Technology Intern</h2>
+                            <p class="text-muted">
+                              Imaged PCs for store and corporate users and setup videoconference rooms for presentations
+                              •	Troubleshot issues and performed warranty replacement while inventorying technical equipment
+                              •	Composed first IT Intern Guide with detailed information for future interns to follow and edit
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted" data-aos="fade-up">
+                    <div class="timeline-image">
+                        <img class="img-circle img-responsive" src="images/nyuad1.jpg" alt="NYUAD">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="accordion">
+                        <div class="timeline-heading">
+                            <h4>New York University Abu Dhabi</h4>
+                            <h4 class="subheading">Abu Dhabi, UAE Oct. 2014—Dec. 2014</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <h2 class="job_title">Quality Assurance Data Analyst Intern</h2>
+                            <p class="text-muted">
+                              Performed accurate tests on varied set of technical equipment such as internet ports and routers
+                              •	Diagrammed network infrastructure of the campus from collected data, utilizing Google Drive
+                              •	Collaborated with other interns in creating/executing test scripts for NYU-centric applications
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                   </li>
+                  <li class="timeline change" data-aos="fade-up">
+                    <div class="timeline-image">
+                        <img class="img-circle img-responsive" src="images/asme1.jpg" alt="NYUAD">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="accordion">
+                        <div class="timeline-heading">
+                            <h4>American Society of Mechanical Engineers</h4>
+                            <h4 class="subheading">New York, NY June 2014—Aug. 2014</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <h2 class="job_title">Information Technology Intern</h2>
+                            <p class="text-muted">
+                              Provided help-desk and technical support for all employees via telephone, email and in person
+                              •	Documented an informative and comprehensive instructional guide for incoming new printers
+                              •	Programmed more than 50 mobile devices utilizing AirWatch for company's phones’ transitions
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
 
-    <div class="container-fluid" id="contact">
-      <h2 class="headliner"> CONTACT </h2>
-      <div class="row">
-        <div class="col-sm-6 col-md-6 col-lg-3 text-center contact">
-          <!-- LinkedIn Filled icon by Icons8 -->
-          <a href="https://www.linkedin.com/in/anteneh-a-moges-083bb979" target="_blank">
-            <img src="https://maxcdn.icons8.com/iOS7/PNG/100/Social_Networks/linkedin_filled-100.png" title="LinkedIn Filled" width="100">
-          </a>
-          <p>LinkedIn</p>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-3 text-center contact">
-          <!-- GitHub icon by Icons8 -->
-          <a href="https://github.com/amoges1" target="_blank">
-            <img src="https://maxcdn.icons8.com/iOS7/PNG/100/Logos/github_copyrighted-100.png" title="GitHub" width="100">
-          </a>
-          <p>Github</p>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-3 text-center contact">
-          <!-- Resume icon by Icons8 -->
-          <a href="images/Resume.pdf">
-            <img src="https://maxcdn.icons8.com/iOS7/PNG/100/Business/resume-100.png" title="Resume" width="100">
-          </a>
-          <p>Resume</p>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-3 text-center contact">
-          <!-- Message icon by Icons8 -->
-          <a href="mailto:amoges1@gmail.com">
-            <img src="https://maxcdn.icons8.com/iOS7/PNG/100/Messaging/message-100.png" title="Message" width="100">
-          </a>
-          <p>Email</p>
-        </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-      </div>
-    </div>
 
+    <section id="portfolio">
+        <h1 class="title">PORTFOLIO</h1>
+        <div class="container-fluid section">
+          <div data-aos="fade-up">
+            <div class="container">
+
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="project">
+                  <h1 class="page-header">TasteBytes
+                    <a href="https://frozen-brushlands-86523.herokuapp.com/" target="_blank"></a>
+                  </h1>
+                    <img src="images/dumplings.jpg" class="img-responsive" id="TB" alt="TB"  align="left">
+                </div>
+
+                <div class="caption project-caption">
+                  <h3 class="port-title job_title">Details
+                    <span class="pull-right">
+                      <a class="btn btn-success btn-sm" href="https://frozen-brushlands-86523.herokuapp.com/" target="_blank">View App
+                    <span class="glyphicon glyphicon-new-window"></span>  </a>
+                    </span></h3>
+                  <h4 style="margin-top:-5px;">Create a List, Powered by Yelp</h4>
+                  <i>Create your own list of restaurants, cafes and more
+                    to try after searching for places with the help of Yelp.</i>
+
+                  <h4>Share Lists with Friends</h4>
+                  <i>After building your list, share it with your friends.
+                      See what places you may have common and head there together.</i>
+
+                  <h4>Recommend each other locations</h4>
+                  <i>You and your friends may have different tastes in locations
+                    to visit so feel free to recommend some places from your own list.</i>
+
+                  <h4>Rate and Comment each other location selections</h4>
+                  <i>Review your friends' lists and comment on their picks -
+                    your opinion may finally push them to check out a place so let them know.</i>
+                    <h5 class="mb-1 ">Technology and Languages Used:</h5>
+                    <div class="d-flex w-100 justify-content-between">
+                      <ul class="list-inline">
+                        <li class="list-group-item">HTML5</li>
+                        <li class="list-group-item">CSS3 </li>
+                        <li class="list-group-item">JavaScript</li>
+                        <li class="list-group-item">Node.js</li>
+                        <li class="list-group-item">Express</li>
+                        <li class="list-group-item">MongoDB</li>
+                        <li class="list-group-item">mLab</li>
+                        <li class="list-group-item">Heroku</li>
+                      </ul>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section id="contact">
+        <h1 class="title">CONTACT</h1>
+        <div class="container-fluid section">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-3 text-center contact">
+              <!-- LinkedIn Filled icon by Icons8 -->
+              <a href="https://www.linkedin.com/in/anteneh-a-moges-083bb979" target="_blank">
+                <img src="images/LinkedIn-100.png" title="LinkedIn" width="100">
+              </a>
+              <!-- <p>LinkedIn</p> -->
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 text-center contact">
+              <!-- GitHub icon by Icons8 -->
+              <a href="https://github.com/amoges1" target="_blank">
+                <img src="https://maxcdn.icons8.com/iOS7/PNG/100/Logos/github_copyrighted-100.png" title="GitHub" width="100">
+              </a>
+              <!-- <p>Github</p> -->
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 text-center contact">
+              <!-- Resume icon by Icons8 -->
+              <a href="images/Resume.pdf" target="_blank">
+                <img src="https://maxcdn.icons8.com/iOS7/PNG/100/Business/resume-100.png" title="Resume" width="100">
+              </a>
+              <!-- <p>Resume</p> -->
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 text-center contact">
+              <!-- Message icon by Icons8 -->
+              <a href="mailto:amoges1@gmail.com">
+                <img src="https://maxcdn.icons8.com/iOS7/PNG/100/Messaging/message-100.png" title="Message" width="100">
+              </a>
+              <!-- <p>Email</p> -->
+            </div>
+
+          </div>
+        </div>
+      </section>
     <footer id="credit">
-      <div class="text-center">
-         Copyright (c) 2017 Anteneh Moges, All Rights Reserved. Respective icons provided by: <a href="https://icons8.com">Icon pack by Icons8</a>.
-      </div>
-    </footer>
+        <div class="text-center section">
+           Copyright (c) 2017 Anteneh Moges, All Rights Reserved. Respective icons provided by: <a href="https://icons8.com">Icon pack by Icons8</a>.
+        </div>
+      </footer>
 
-    <script type="text/javascript" src="javascripts/maps.js" description="Showcase map of global eduation"> </script>
-    <script async defer
-   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMpdKefuHzobywpyKata8R8_fNg5H-LnE&callback=initMap">
-   </script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
-    <script src="semantic/dist/semantic.min.js"></script>
-    <!-- <script type="text/javascript" src="javascripts/jquery-3.1.1.min.js"></script> -->
-    <script type="text/javascript" src="javascripts/bootstrap.js"></script>
+    <script type="text/javascript" src="javascripts/jquery-ui.min.js"></script>
     <script type="text/javascript" src="javascripts/custom.js"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="javascripts/bootstrap.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+
   </body>
 </html>
