@@ -86,7 +86,7 @@ a {
 /*LANDING PAGE*/
 .hero-image {
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('../images/hero.jpg');
-    height: 65%;
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -181,6 +181,18 @@ section {
     .pachyderm {
     margin-left: 0;
     margin-right: 0;
+    }
+}
+@media screen and (max-width:390px) {
+
+
+    .accordion > .timeline-body {
+        padding:4px;
+        text-align: left;
+    }
+    .timeline-panel {
+        padding-bottom: 2px;
+
     }
 }
 #experience>h1 {
