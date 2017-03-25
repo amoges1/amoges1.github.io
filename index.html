@@ -9,7 +9,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"> -->
     <link rel="stylesheet" href="stylesheets/agency.css">
     <link rel="stylesheet" href="stylesheets/jquery-ui.min.css">
     <link rel="stylesheet" href="stylesheets/jquery-ui.theme.min.css">
@@ -18,36 +18,42 @@
     <link rel="stylesheet" href="stylesheets/custom.css">
   </head>
   <body data-spy="scroll" data-target="#navscroll">
-    <nav class="navbar navbar-fixed-top transparent" id="nav">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button id="mobile" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-          data-target="#navscroll" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#home">AMOGES </a>
+
+      <nav class="navbar navbar-fixed-top transparent" id="nav" style="margin-left:0;">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button id="mobile" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#navscroll" >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home">AMOGES </a>
+          </div>
+          <div id="navscroll" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li ><a href="#about">About</a></li>
+              <li><a href="#experience" >Experience</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
-        <div id="navscroll" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li ><a href="#about">About</a></li>
-            <li><a href="#experience" >Experience</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+      </nav>
+
+
+      <div class="hero-image" id="home">
+        <div class="hero-text">
+          <h1 class="hero-title">ANTENEH MOGES</h1>
+
+          <a href="#about" class="btn btn-default">START</a>
         </div>
       </div>
-    </nav>
 
-    <div class="hero-image" id="home">
-      <div class="hero-text">
-        <h1 class="hero-title">ANTENEH MOGES</h1>
 
-        <a href="#about" class="btn btn-default">START</a>
-      </div>
-    </div>
+
+
 
     <section id="about">
       <h1 class="title">ABOUT</h1>
@@ -55,7 +61,7 @@
 
         <div class="row">
           <br>
-          <div class="col-md-4 col-lg-4 about" data-aos="fade-right">
+          <div class="col-md-4 col-lg-4 about" data-aos-once="true" data-aos="fade-right">
             <img src="images/Work-100.png" title="Work" width="100">
             <h2 class="about_title">Hardworker</h2>
             <p class="explain">
@@ -69,7 +75,7 @@
             </p>
           </div>
 
-        <div class="col-md-4 col-lg-4 about" data-aos="fade-down">
+        <div class="col-md-4 col-lg-4 about" data-aos-once="true" data-aos="fade-down">
           <img src="images/University-100.png" title="Education" width="100">
           <h2 class="about_title">Learner</h2>
           <p class="explain">
@@ -82,7 +88,7 @@
           </p>
          </div>
 
-         <div class="col-md-4 col-lg-4 about" data-aos="fade-left">
+         <div class="col-md-4 col-lg-4 about" data-aos-once="true" data-aos="fade-left">
           <img src="images/World Map-100.png" title="Travel" width="100">
           <h2 class="about_title">Traveller</h2>
           <p class="explain">I like to travel.
@@ -104,9 +110,9 @@
         <h1 class="title">EXPERIENCE</h1>
         <div class="container-fluid exp_content">
           <div class="row">
-            <div class="col-lg-12" data-aos="fade-up">
+            <div class="col-lg-12" data-aos-once="true" data-aos="fade-up">
               <div class="container">
-                <div class="thumbnail" style="margin-left: 100px;margin-right: 100px; padding-top:40px;">
+                <div class="thumbnail pachyderm" style=" padding-top:40px;">
 
                   <img src="images/pachy.png" class="img-responsive img-rounded"  alt="Pachyderm" style="width:50%; ">
                   <div class="caption">
@@ -126,7 +132,7 @@
             <div class="col-lg-12">
               <div class="container">
                 <ul class="timeline">
-                  <li class="timeline-inverted" data-aos="fade-up">
+                  <li class="timeline-inverted" data-aos-once="true" data-aos="fade-up">
                     <div class="timeline-image">
                         <img class="img-circle img-responsive" src="images/bobst1.jpg" alt="Bobst">
                     </div>
@@ -147,7 +153,7 @@
                       </div>
                     </div>
                   </li>
-                  <li data-aos="fade-up">
+                  <li data-aos-once="true" data-aos="fade-up">
                     <div class="timeline-image">
                         <img class="img-circle img-responsive" src="images/prada1.jpg" alt="Prada">
                     </div>
@@ -168,7 +174,7 @@
                       </div>
                     </div>
                   </li>
-                  <li class="timeline-inverted" data-aos="fade-up">
+                  <li class="timeline-inverted" data-aos-once="true" data-aos="fade-up">
                     <div class="timeline-image">
                         <img class="img-circle img-responsive" src="images/nyuad1.jpg" alt="NYUAD">
                     </div>
@@ -189,7 +195,7 @@
                       </div>
                     </div>
                    </li>
-                  <li class="timeline change" data-aos="fade-up">
+                  <li class="timeline change" data-aos-once="true" data-aos="fade-up">
                     <div class="timeline-image">
                         <img class="img-circle img-responsive" src="images/asme1.jpg" alt="NYUAD">
                     </div>
@@ -222,7 +228,7 @@
     <section id="portfolio">
         <h1 class="title">PORTFOLIO</h1>
         <div class="container-fluid section">
-          <div data-aos="fade-up">
+          <div data-aos-once="true" data-aos="fade-up">
             <div class="container">
 
             <div class="row">
@@ -323,7 +329,7 @@
     crossorigin="anonymous"></script>
     <script type="text/javascript" src="javascripts/jquery-ui.min.js"></script>
     <script type="text/javascript" src="javascripts/custom.js"></script>
-    <script src="semantic/dist/semantic.min.js"></script>
+    <!-- <script src="semantic/dist/semantic.min.js"></script> -->
     <script type="text/javascript" src="javascripts/bootstrap.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script> AOS.init(); </script>

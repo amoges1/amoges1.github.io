@@ -1,14 +1,16 @@
 body, html {
     height: 100%;
-    margin: 0;
+    /*margin: 0;*/
 }
+
 
 #nav {
     height: 70px;
-    display: block;
-    position: fixed;
-    width: 100%;
-    z-index: 99999;
+    /*display: block;
+    position: fixed;*/
+    /*width: 100%;*/
+    /*z-index: 99999;*/
+    margin: 0;
     transition: all ease .2s;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -102,7 +104,7 @@ a {
 .hero-title {
     padding: 6px;
     font-family: 'Cormorant Upright', serif;
-    font-size: 75px;
+    font-size: 60px;
     color: #fff;
     text-shadow: 2px 2px rgb(7, 102, 162);
     font-weight: 700;
@@ -175,6 +177,12 @@ section {
 }
 
 /*EXPERIENCE SECTION*/
+@media screen and (min-width:425px) {
+    .pachyderm {
+    margin-left: 0;
+    margin-right: 0;
+    }
+}
 #experience>h1 {
     background-image: url('../images/sh.jpg');
     height: 50%;
