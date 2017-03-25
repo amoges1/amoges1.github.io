@@ -1,3 +1,7 @@
+
+
+
+
 body, html {
     height: 100%;
     /*margin: 0;*/
@@ -86,16 +90,17 @@ a {
 /*LANDING PAGE*/
 .hero-image {
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('../images/hero.jpg');
-    height: 65%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /*position: relative;*/
+    background-attachment: scroll;
 }
+
 
 .hero-text {
     text-align: center;
-    position: absolute;
+    position:relative;
     top: 65%;
     left: 50%;
     transform: translate(-50%, -20%);
@@ -136,9 +141,9 @@ a {
 /*SECTIONING*/
 .title {
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 60px;
@@ -148,6 +153,7 @@ a {
 section {
     padding-top: 0;
     margin-bottom: 0;
+    margin-top:-20px;
     background-color: #f7f7f7;
     color: black;
 }
@@ -177,24 +183,7 @@ section {
 }
 
 /*EXPERIENCE SECTION*/
-@media screen and (min-width:425px) {
-    .pachyderm {
-    margin-left: 0;
-    margin-right: 0;
-    }
-}
-@media screen and (max-width:390px) {
 
-
-    .accordion > .timeline-body {
-        padding:4px;
-        text-align: left;
-    }
-    .timeline-panel {
-        padding-bottom: 2px;
-
-    }
-}
 #experience>h1 {
     background-image: url('../images/sh.jpg');
     height: 50%;
@@ -243,7 +232,9 @@ section {
     background-size: cover;
     position: relative;
 }
-
+#portfolio > h1 {
+    margin-bottom: 0;
+}
 .port-title {
     font-size: 20px;
     text-align: left;
@@ -257,6 +248,10 @@ section {
     margin-bottom: 50px;
 }
 
+.list-group-item {
+    margin:2px;
+    border-radius: 5px;
+}
 /*CONTACT SECTION*/
 
 #contact {
@@ -278,6 +273,11 @@ section {
     margin-bottom: 15px;
 }
 
+.contact > p {
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+}
 /*FOOTER*/
 
 #credit {
@@ -285,4 +285,37 @@ section {
     padding-top: 20px;
     padding-bottom: 5px;
     color: #fff;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .hero-image {
+    height: 30%;
+  }
+  .hero-title {
+    font-size: 20px;
+  }
+  .btn-default {
+      font-size: 15px;
+      padding:5px;
+  }
+  .navbar-right > li {
+      background-color: black;
+  }
+  .pachyderm {
+  margin-left: 0;
+  margin-right: 0;
+  }
+  .accordion > .timeline-body {
+      padding:2px;
+      text-align: left;
+  }
+}
+@media only screen and (min-device-width : 481px)  {
+    .hero-image {
+      height: 50%;
+    }
+    .btn-default {
+        font-size: 15px;
+        padding:10px 15px;
+    }
 }
