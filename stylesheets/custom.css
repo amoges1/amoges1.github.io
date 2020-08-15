@@ -96,7 +96,7 @@ a {
 .hero-text {
     text-align: center;
     position:relative;
-    top: 83%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -20%);
 }
