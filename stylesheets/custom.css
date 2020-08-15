@@ -1,19 +1,10 @@
-
-
-
-
 body, html {
     height: 100%;
-    /*margin: 0;*/
 }
 
 
 #nav {
     height: 70px;
-    /*display: block;
-    position: fixed;*/
-    /*width: 100%;*/
-    /*z-index: 99999;*/
     margin: 0;
     transition: all ease .2s;
     font-family: 'Poppins', sans-serif;
@@ -93,7 +84,7 @@ a {
 
 /*LANDING PAGE*/
 .hero-image {
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('../images/hero.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('../images/jap.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,7 +96,7 @@ a {
 .hero-text {
     text-align: center;
     position:relative;
-    top: 65%;
+    top: 83%;
     left: 50%;
     transform: translate(-50%, -20%);
 }
@@ -113,7 +104,7 @@ a {
 .hero-title {
     padding: 6px;
     font-family: 'Cormorant Upright', serif;
-    font-size: 60px;
+    font-size: 6rem;
     color: #fff;
     text-shadow: 2px 2px rgb(7, 102, 162);
     font-weight: 700;
@@ -143,21 +134,11 @@ a {
 
 
 /*SECTIONING*/
-.title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    padding-top: 80px;
-    padding-bottom: 70px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 60px;
-    color: #f7f7f7;
-}
+
 
 section {
-    padding-top: 0;
-    margin-bottom: 0;
-    margin-top:-20px;
+    padding-top: 8rem;
+    margin-bottom: 0;  
     background-color: #f7f7f7;
     color: black;
 }
@@ -277,11 +258,20 @@ section {
     margin-bottom: 15px;
 }
 
+.contact-img {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 12rem;
+}
 .contact > p {
     color:black;
     font-size: 15px;
     font-weight: bold;
+    font-size:2rem;
+    padding: 2rem;
 }
+
 /*FOOTER*/
 
 #credit {
@@ -316,7 +306,7 @@ section {
 }
 @media only screen and (min-device-width : 481px)  {
     .hero-image {
-      height: 50%;
+      height: 100%;
     }
     .btn-default {
         font-size: 15px;
