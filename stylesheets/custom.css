@@ -84,7 +84,7 @@ a {
 
 /*LANDING PAGE*/
 .hero-image {
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('../images/jap.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('../images/Hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,14 +149,6 @@ section {
     padding: 5px;
 }
 
-#about>h1 {
-    background-image: url('../images/hk.jpg');
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
 
 .about_title {
     font-family: 'Righteous', cursive;
@@ -169,14 +161,6 @@ section {
 
 /*EXPERIENCE SECTION*/
 
-#experience>h1 {
-    background-image: url('../images/sh.jpg');
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
 
 .ui-state-default {
     color: black;
@@ -209,14 +193,6 @@ section {
 
 /*PORTFOLIO SECTION*/
 
-#portfolio>h1 {
-    background-image: url('../images/deadsea.jpg');
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
 #portfolio > h1 {
     margin-bottom: 0;
 }
@@ -242,15 +218,6 @@ section {
 #contact {
     background-color: rgb(81, 181, 254);
     color: #fff;
-}
-
-#contact>h1 {
-    background-image: url('../images/sing.jpg');
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 
 .contact {
